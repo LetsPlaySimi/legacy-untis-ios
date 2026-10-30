@@ -1,0 +1,14 @@
+#!/bin/sh
+# TLSFix only touches apps that are switched on, so switch this one on.
+# (Only acts if TLSFix's preferences exist; never fails the install.)
+BUNDLE="io.github.letsplaysimi.legacyuntis"
+PREFS="/var/mobile/Library/Preferences/com.tlsfix"
+
+if [ -f "$PREFS.plist" ] && which defaults >/dev/null 2>&1; then
+    defaults write "$PREFS" "enabled-$BUNDLE" -bool true >/dev/null 2>&1
+    chown mobile:mobile "$PREFS.plist" 2>/dev/null
+    echo "Legacy Untis: enabled TLSFix for $BUNDLE"
+else
+    echo "Legacy Untis: please enable this app in Settings > TLSFix (see README)."
+fi
+exit 0

@@ -1,0 +1,11 @@
+Package: io.github.letsplaysimi.legacyuntis
+Name: Legacy Untis
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Unofficial WebUntis timetable client for iOS 8 (iPad)
+Depends: firmware (>= 8.0), tlsfix
+Maintainer: LetsPlaySimi <scoddgo@gmail.com>
+Author: LetsPlaySimi <scoddgo@gmail.com>
+Section: Utilities
+Homepage: https://github.com/LetsPlaySimi/legacy-untis-ios
+Icon: file:///Applications/Untis.app/AppIcon60x60@2x.png
