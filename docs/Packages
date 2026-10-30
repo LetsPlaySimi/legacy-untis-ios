@@ -3,12 +3,12 @@ Version: 1.0.0
 Architecture: iphoneos-arm
 Maintainer: LetsPlaySimi <scoddgo@gmail.com>
 Installed-Size: 272
-Depends: firmware (>= 8.0), tlsfix
+Depends: firmware (>= 8.0), com.skyglow.tlsfix
 Filename: debs/io.github.letsplaysimi.legacyuntis_1.0.0_iphoneos-arm.deb
-Size: 123604
-MD5sum: a3899be2bec1e4502d460c0dee97e380
-SHA1: f7620e1419bbff6f7d5146e443b9b460d43dabf1
-SHA256: f4179d209320132f750a6eecf3e0ae05ab3c607d177b88a556785748ef86c251
+Size: 123288
+MD5sum: b1e7f7b16a2841cffa08a8200b17dc25
+SHA1: 9b3fe9639f35cab3133ac85699ece5d1257fb178
+SHA256: a225ac260ecc9764ec53d635fdcdf7b5013b9f3e86ef89fb45409caa3d187526
 Section: Utilities
 Homepage: https://github.com/LetsPlaySimi/legacy-untis-ios
 Description: Unofficial WebUntis timetable client for iOS 8 (iPad)

@@ -29,19 +29,18 @@
 ## Requirements
 
 - Jailbroken iPad on **iOS 8.0 or newer** (32-bit / armv7: iPad 2, 3, 4, mini 1)
-- **[TLSFix](https://github.com/nfzerox/TLSFix)** so the iPad can open modern HTTPS servers.
+- **[TLSFix](https://github.com/ObscureMosquito/TLSFix)** so the iPad can open modern HTTPS servers.
   Legacy Untis depends on it, so Cydia installs it automatically once its source is added.
 - A WebUntis account of your school
 
 ## Install (Cydia)
 
-1. Install TLSFix by following its [README](https://github.com/nfzerox/TLSFix#install) (certificate bundle + its Cydia source).
+1. Install TLSFix by following its [README](https://github.com/ObscureMosquito/TLSFix).
 2. In Cydia go to **Sources → Edit → Add** and enter  
    `https://LetsPlaySimi.github.io/legacy-untis-ios/`
 3. Search for **Legacy Untis**, install, and respring if asked.
 
-The installer switches TLSFix on for the app automatically. If login fails with a TLS or certificate error, open
-**Settings → TLSFix** and make sure **Legacy Untis** is on, then force-quit and reopen the app.
+TLSFix works system-wide, so there is nothing to enable. If login fails with a TLS or certificate error, make sure TLSFix is installed and respring.
 
 ## First launch
 
